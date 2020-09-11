@@ -1,0 +1,19 @@
+{
+  "name": "videowatermark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-telegram-bot-api": "^0.50.0",
+    "node-url-downloader": "^0.1.9",
+    "nodemon": "^2.0.4"
+  }
+}
